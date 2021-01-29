@@ -1,9 +1,130 @@
-body {
-  background-color: rgba(247, 247, 247, 0.548);
-}
+
 .nav-st {
   background-color: rgba(0, 9, 141, 0.575);
+
 }
+
 .art1 {
-  height: 40%;
+  height: 50%;
+}
+
+.art1 h5{
+  font-size: 60px;
+}
+.art1 button{
+  height: 50px;
+}
+
+.img-top{
+  width:50%;
+  height:auto;
+}
+.col-6{
+  margin-top:3px;
+}
+.card-articles{
+  margin-top:30px;
+  align-content: center;
+}
+.second{
+ width: 100%;
+  margin-top:10px;
+   text-align: center;
+}
+.second .col-sm-4{
+  padding:10px;
+   
+}
+
+.second i:hover{
+ transform: scale(1.2);
+}
+.second h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.second i{
+   padding-top: 70px;
+  padding-bottom: 10px;
+}
+.profile-card-1 {
+    max-width: 350px;
+    min-height:350px ;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 {
+  text-align: center;
+   height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+    
+   
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: -18px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 2px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 80px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
 }
