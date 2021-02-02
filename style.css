@@ -3,6 +3,9 @@
   background-color: rgba(0, 9, 141, 0.575);
 
 }
+.mn-row{
+  padding-left:50px;
+}
 
 .art1 {
   height: 50%;
@@ -60,23 +63,29 @@
     border-radius: 10px;
 }
 
+
 .profile-card-2 {
   text-align: center;
-   height: 250px;
-  width: 250px;
+   height: 150px;
+  width: 150px;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     background-position: center;
     overflow: hidden;
     position: relative;
     margin: 10px auto;
     cursor: pointer;
+    background-color: black;
 
 }
 
 .profile-card-2 img {
     transition: all linear 0.25s;
+     width: 100px;
+    height: auto;
     
    
 }
@@ -85,7 +94,7 @@
     position: absolute;
     left: 30px;
     bottom: 70px;
-    font-size: 30px;
+    font-size: 20px;
     color: #FFF;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     font-weight: bold;
@@ -115,6 +124,8 @@
 
 .profile-card-2:hover img {
     filter: grayscale(100%);
+   
+
 }
 
 .profile-card-2:hover .profile-name {
@@ -127,4 +138,44 @@
 
 .profile-card-2:hover .profile-icons {
     right: 40px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .profile{
+      width:unset;
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: 7px;
+    }
+
+    .contact .col-8{
+  width: 100%;
+}
+}
+
+
+.contact{
+  text-align: center; 
+  padding-bottom: 60px;
+  background-color: rgba(0, 9, 141, 0.575);
+}
+
+
+footer {
+  text-align: center;
+	border-top: 5px double rgba(0, 9, 141, 0.575);
+	margin-top: 1em;
+	padding-top: 0.5em;
+}
+footer a{
+ z-index: 999;
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+ background: transparent;
+ color: rgba(0, 9, 141, 0.575); ;
 }
